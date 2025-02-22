@@ -10,3 +10,5 @@ feat(chatbot): Refatoração e otimização da interface de chat estilo WhatsApp
 - Atualização do arquivo `README` com instruções claras sobre como rodar o projeto e suas dependências.
 
 Este commit reflete um esforço na padronização e manutenção do código, assegurando um ciclo de vida sustentável para a aplicação e a facilidade de futuras expansões.
+
+Entre no site: https://inteligencia-artificial-divertida-zap.netlify.app/
