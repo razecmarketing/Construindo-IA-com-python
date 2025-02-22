@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Chat Bot</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="whatsapp-container">
+      <div class="chat-header">
+        <div class="profile-info">
+          <div class="profile-pic">
+            <svg
+              viewBox="0 0 128 128"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="64" cy="64" r="64" fill="#F0F0F0" />
+              <circle cx="64" cy="64" r="56" fill="#6B7280" />
+              <circle cx="44" cy="52" r="8" fill="#FF5733" />
+              <circle cx="84" cy="52" r="8" fill="#FF5733" />
+              <path
+                d="M40 80C40 80 52 92 64 92C76 92 88 80 88 80"
+                stroke="#FF5733"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M30 40L40 48M98 40L88 48"
+                stroke="#FF5733"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M64 24V36M56 28L72 28"
+                stroke="#FF5733"
+                stroke-width="4"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <div class="name">Robô Mais Mala 🤪</div>
+        </div>
+        <div class="header-icons">
+          <span>⋮</span>
+        </div>
+      </div>
+
+      <div class="chat-messages" id="chat-messages"></div>
+
+      <div class="chat-input">
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Digite uma mensagem"
+          autocomplete="off"
+        />
+        <button id="send-button">
+          <svg viewBox="0 0 24 24" width="24" height="24">
+            <path
+              fill="#fff"
+              d="M1.101 21.757L23.8 12.028 1.101 2.3l.011 7.912 13.623 1.816-13.623 1.817-.011 7.912z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      Desenvolvido por Cezi Cola Tecnologia | Todos os Direitos Reservados 2025
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

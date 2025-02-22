@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.whatsapp-container {
+  width: 100%;
+  max-width: 450px;
+  height: 80vh;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #075e54;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic svg {
+  width: 24px;
+  height: 24px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.chat-messages {
+  flex: 1;
+  background-color: #e5ddd5;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message.user {
+  align-items: flex-end;
+}
+
+.message-content {
+  max-width: 65%;
+  padding: 8px 12px;
+  border-radius: 7.5px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.message.user .message-content {
+  background-color: #dcf8c6;
+}
+
+.message.bot .message-content {
+  background-color: white;
+}
+
+.message-time {
+  font-size: 11px;
+  color: rgba(0,0,0,0.45);
+  margin-top: 2px;
+}
+
+.chat-input {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+#message-input {
+  flex: 1;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 21px;
+  outline: none;
+  font-size: 15px;
+}
+
+#send-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #075e54;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#send-button:hover {
+  background-color: #128c7e;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #075e54;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
